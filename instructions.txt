@@ -1,0 +1,41 @@
+Instructions:
+Files:
+NOTE: All files must be stored in the same (current) working directory
+All files are currently set up to run on CPU only (will need to be adapted to run on GPU)
+
+- data_rechunk.py:
+	Needs to be run first to re-chunk the data for efficient dataloading.
+	Requires datasets, e.g. train images, to be stored as follows in working directory:
+	'datasets/data_new/train/images.h5'
+
+-dataloader_mtl.py: 
+	Needs data_rechunk.py to be run before it can be run
+
+-utils.py:
+	Utils script containing various functions and class for training and evaluation
+
+-train_ ...py
+	Training scripts for all models. Prints out model results and metrics.
+
+-oeq_...py
+	Open ended question scripts
+
+-models.py
+	Script containing all models necessary for training scripts
+
+-mtl_vis.py
+	File that visualises predicted mask vs target mask (mask.png) (requires matplotlib and mtl_model.pt)
+
+-mtl_model.pt
+	Fully trained MTL network that is requireds to run mtl_vis.py
+
+
+
+
+	
+
+
+	
+
+
+
