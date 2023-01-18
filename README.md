@@ -14,5 +14,22 @@ Started by implementing a data loading pipeline. To implement an efficient datal
 were re-chunked so that images can be retrieved efficiently without loading all of the data into memory. 
 
 
+## Setup & Training 
+
+1. Check dependencies:
+
+```
+- pytorch 0.4 / 1.0+
+- opencv-python
+- numpy
+- sklearn
+```
+
+2. Clone this repo:
+
+```
+git clone https://github.com/sam-finestone/segmentation-mtl.git
+```
+
 
 
