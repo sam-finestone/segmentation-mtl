@@ -30,6 +30,7 @@ were re-chunked so that images can be retrieved efficiently without loading all 
 ```
 git clone https://github.com/sam-finestone/segmentation-mtl.git
 ```
+3. Training the multi-task U-Net model
 
 
 
