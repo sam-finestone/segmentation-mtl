@@ -4,7 +4,7 @@ Pytorch implementation of a multi-task learning model for detection and segmenta
 
 ## Data preparation 
 
-Used the Oxford-IIIT Pet dataset.
+Used the Oxford-IIIT Pet dataset. The dataset consists of 37 categories of pets with around 200 photos for each breed. The scale, pose, and lighting of the animal images vary greatly. Each image has a ground truth annotation that describes the breed, the head ROI, and the pixel level trimap segmentation.
 
 Training, validation and test data split: 80-10-10
 
