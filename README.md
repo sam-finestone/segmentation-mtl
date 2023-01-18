@@ -1,4 +1,4 @@
-# segmentation-mtl
+# Multi-Task Learning For The Segmentation Of Animal Images
 
 Pytorch implementation of a multi-task learning model for detection and segmentation of different animal breeds.
 
