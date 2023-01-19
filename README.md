@@ -99,6 +99,8 @@ OEQ w/ 25-50-25 model | 89.83
 
 ## Limitations
 
+Limitations exist in this MTL study. As the dataset consists of images of cats and dogs, it cannot be certain that the trained model will generalise well to other animals. Furthermore, the results may not be replicable in different settings where image segmentation is of interest (e.g. in the medical domain). While the nature of MTL allows the use of a relatively small dataset and still produce an accurate network, improved performance may have been seen with a larger training set. Moreover, in the absence of computational resources for this project, it was unable to verify the statistical significance of the experimental results. In the future, this could be done by running each experiment multiple times and computing summary statistics.
+
 
 
 
