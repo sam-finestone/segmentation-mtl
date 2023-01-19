@@ -31,7 +31,8 @@ git clone https://github.com/sam-finestone/segmentation-mtl.git
 ```
 
 3. Setup & Training
-'''
+
+```
 - data_rechunk.py:
 	Needs to be run first to re-chunk the data for efficient dataloading.
 	Requires datasets, e.g. train images, to be stored as follows in working directory:
@@ -42,21 +43,21 @@ git clone https://github.com/sam-finestone/segmentation-mtl.git
 
 -train_ ...py
 	Training scripts for all models. Prints out model results and metrics.
-'''  
+```  
   
 4.Visualizations
 
-'''
+```
 -mtl_vis.py
 	File that visualises predicted mask vs target mask (mask.png) (requires matplotlib and mtl_model.pt)
 
 -mtl_model.pt
 	Fully trained MTL network that is requireds to run mtl_vis.py
-'''
+```
 
 ## Helper files 
 
-'''
+```
 -utils.py:
 	Utils script containing various functions and class for training and evaluation
 
@@ -65,5 +66,5 @@ git clone https://github.com/sam-finestone/segmentation-mtl.git
 
 -models.py
 	Script containing all models necessary for training scripts
-'''
+```
 
