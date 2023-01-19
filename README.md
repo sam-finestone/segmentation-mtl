@@ -29,7 +29,41 @@ pip install -r /requirements.txt
 ```
 git clone https://github.com/sam-finestone/segmentation-mtl.git
 ```
-3. Training the multi-task U-Net model
 
+3. Setup & Training
+'''
+- data_rechunk.py:
+	Needs to be run first to re-chunk the data for efficient dataloading.
+	Requires datasets, e.g. train images, to be stored as follows in working directory:
+	'datasets/data_new/train/images.h5'
 
+-dataloader_mtl.py: 
+	Needs data_rechunk.py to be run before it can be run
+
+-train_ ...py
+	Training scripts for all models. Prints out model results and metrics.
+'''  
+  
+4.Visualizations
+
+'''
+-mtl_vis.py
+	File that visualises predicted mask vs target mask (mask.png) (requires matplotlib and mtl_model.pt)
+
+-mtl_model.pt
+	Fully trained MTL network that is requireds to run mtl_vis.py
+'''
+
+## Helper files 
+
+'''
+-utils.py:
+	Utils script containing various functions and class for training and evaluation
+
+-oeq_...py
+	Open ended question scripts
+
+-models.py
+	Script containing all models necessary for training scripts
+'''
 
