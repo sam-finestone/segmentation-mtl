@@ -106,8 +106,9 @@ Limitations exist in this MTL study. As the dataset consists of images of cats a
 A future study on this particular MTL project would be to tackle a soft-parameter sharing approach. Assumptions were made about the relatedness of the tasks when choosing to use hard-parameter sharing, so it is possible that with an alternative MTL model different results would be seen. Furthermore, with more computational resources, more advanced network architectures could be attempted. With a larger set of auxiliary tasks, more could be learned about the data and what tasks are most beneficial to image segmentation.
 
 
+## Conclusion 
 
-
+It was set out to evaluate whether a multi-task learning setup would be beneficial and improve the target task of image segmentation of pet breed images. The baseline model was found to be the best performing model in regards to image segmentation. However, the ablation model with object detection came very close, with a 0.19% difference. The ablation model with binary classification performed less well, achieving 4.9% lower dice score than the baseline model. It is valuable to note that good performance was also seen on the auxiliary tasks. The full MTL model achieved a dice score of 90.21% on image segmentation, as well as high binary classification accuracy and relatively high performance with the object detection task. If further work were to be conducted, expanding the network to alternative tasks and a dataset with a wider variety of animals would be of interest. Additionally, a deeper investigation into the impact of loss function weighting would be desirable.
 
 
 
