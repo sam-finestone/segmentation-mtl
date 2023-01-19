@@ -84,6 +84,7 @@ First, we examine the extent to which the auxiliary tasks of binary classificati
 
 Dice Score on held-out test set (after 60 epochs)
 Model | Dice Score (%)
+------------- | -------------
 Full MTL model | 90.21
 Baseline model | 92.94
 Ablation model w/ classification | 88.04
