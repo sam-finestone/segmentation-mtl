@@ -45,7 +45,7 @@ git clone https://github.com/sam-finestone/segmentation-mtl.git
 	Training scripts for all models. Prints out model results and metrics.
 ```  
   
-4.Visualizations
+4. Visualizations
 
 ```
 -mtl_vis.py
