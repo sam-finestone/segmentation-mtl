@@ -16,13 +16,10 @@ were re-chunked so that images can be retrieved efficiently without loading all 
 
 ## Setup & Training 
 
-1. Check dependencies:
+1. Install all the dependencies:
 
 ```
-- pytorch 0.4 / 1.0+
-- opencv-python
-- numpy
-- sklearn
+pip install -r /requirements.txt
 ```
 
 2. Clone this repo:
