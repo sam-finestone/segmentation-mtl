@@ -77,6 +77,25 @@ For the main part of the analysis, the evaluatation of the different MTL setups 
 3. Ablated MTL Network #1: with target task of image segmentation and auxiliary task of binary classification
 4. Ablated MTL Network #2: with target task of image segmentation and auxiliary task of object detection
 
+First, we examine the extent to which the auxiliary tasks of binary classification and object detection impact image segmentation performance. We compare the baseline U-Net architecture against the Full MTL network. For this experiment, we are interested in whether simultaneously learning binary classification and object detection boosts the segmentation performance, or whether negative transfer occurs.
+
+
+## Results
+
+Dice Score on held-out test set (after 60 epochs)
+Model | Dice Score (%)
+Full MTL model | 90.21
+Baseline model | 92.94
+Ablation model w/ classification | 88.04
+Ablation model w/ bbox | 92.75
+OEQ w/ uncertainty model | 87.73
+OEQ w/ 80-10-10 model | 91.80
+OEQ w/ 75-15-15 model | 91.54
+OEQ w/ 50-25-25 model | 91.29
+OEQ w/ 25-25-50 model | 90.32
+OEQ w/ 25-50-25 model | 89.83
+
+
 ## Limitations
 
 
