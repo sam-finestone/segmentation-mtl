@@ -68,3 +68,23 @@ git clone https://github.com/sam-finestone/segmentation-mtl.git
 	Script containing all models necessary for training scripts
 ```
 
+## Experiments
+
+For the main part of the analysis, the evaluatation of the different MTL setups was done by comparing the image segmentation performance of the following models on the held out test set:
+
+1. Full MTL Network: with target task of image segmentation and auxiliary tasks of binary classification and object detection
+2. Baseline Segmentation Network: U-Net for image segmentation with no auxiliary tasks
+3. Ablated MTL Network #1: with target task of image segmentation and auxiliary task of binary classification
+4. Ablated MTL Network #2: with target task of image segmentation and auxiliary task of object detection
+
+## Limitations
+
+
+
+
+
+
+
+
+
+
